@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experiences – TrailVista</title>
+   <!-- Inclusión del CDN de Bootstrap para estilos rápidos y responsive -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+   <!-- Enlace al archivo de estilos personalizado del proyecto -->
+   <link rel="stylesheet" href="./css/style.css" />
+   <!-- Google Fonts: Inter + Playfair Display -->
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+ <!-- Favicon universal -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Navegadores modernos -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg bg-body-light" data-bs-theme="light">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a class="navbar-brand" href="index.html">
+      <img src="./assets/logo-dark.png" alt="TrailVista Logo" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="experiences.html">Experiences</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item">
+          <a class="btn btn-gold ms-3" href="contact.html">Plan Your Journey</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<section class="hero-section position-relative" style="background: url('./assets/experiences/hero-experiences-banner.jpg') center/cover no-repeat; min-height: 60vh;">
+  <div class="container text-white d-flex align-items-center justify-content-center" style="height: 100%;">
+    <div class="hero-fade text-center">
+      <h1 class="display-4 fw-bold">Explore Unforgettable Experiences</h1>
+      <p class="lead">Tailor-made adventures, cultural journeys, and moments of pure serenity.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ADVENTURE -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Adventure Awaits</h2>
+    <p class="text-center mb-5">Feel the thrill with tailor-made experiences like mountain trekking, desert safaris, and island hikes — all guided by seasoned experts.</p>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img src="./assets/experiences/adventure-mountain.jpg" alt="Mountain trekking with a hiker standing at sunrise, overlooking a misty forest trail" class="img-fluid rounded shadow-sm experience-img">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./assets/experiences/adventure-safari.jpg" alt="4x4 jeep on a desert safari, with giraffes in the background under a sunny sky" class="img-fluid rounded shadow-sm experience-img">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./assets/experiences/adventure-island.jpg" alt="Traveler hiking on a tropical island trail with ocean views and lush cliffs" class="img-fluid rounded shadow-sm experience-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELAXATION -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Tranquility Redefined</h2>
+    <p class="text-center mb-5">Wellness retreats, private spas, and natural sanctuaries. Let go of stress and recharge your soul.</p>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <img src="./assets/experiences/relaxation-spa.jpg" alt="Couple relaxing in a private outdoor spa surrounded by greenery" class="img-fluid rounded shadow-sm experience-img">
+      </div>
+      <div class="col-md-6 mb-4">
+        <img src="./assets/experiences/relaxation-yoga-dock.jpg" alt="Man practicing yoga at sunrise on a wooden dock over calm water, peaceful and mindful luxury moment" class="img-fluid rounded shadow-sm experience-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CULTURE -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Dive into Culture</h2>
+    <p class="text-center mb-5">Engage with authentic traditions: cooking classes, ancient ruins, festivals, and native rituals curated for deep cultural connection.</p>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img src="./assets/experiences/culture-cooking.jpg" alt="Local chef teaching a traditional cooking class with fresh ingredients and smiling guests" class="img-fluid rounded shadow-sm experience-img">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./assets/experiences/culture-festival.jpg" alt="Dancers in colorful outfits performing at a traditional cultural festival" class="img-fluid rounded shadow-sm experience-img">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./assets/experiences/culture-rituals.jpg" alt="Man wearing traditional Vietnamese attire standing calmly in a wooden temple, surrounded by nature" class="img-fluid rounded shadow-sm experience-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer  -->
+<footer class="bg-dark text-light pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- Columna izquierda: logo, dirección, contacto -->
+      <div class="col-md-4 mb-4">
+        <div class="d-flex flex-column align-items-start gap-3">
+          <img src="./assets/logo-light.png" alt="TrailVista Logo White" class="footer-logo">
+          <p class="mb-0"><strong>Address:</strong><br>123 Horizon Ave, Suite 5<br>Los Angeles, CA 90210</p>
+          <p class="mb-0"><strong>Contact:</strong><br>
+            <a href="mailto:contact@trailvista.travel" class="text-light text-decoration-none">contact@trailvista.travel</a><br>
+            <a href="tel:+18001238785" class="text-light text-decoration-none">+1 (800) 123‑TRVL</a>
+          </p>
+          <div class="d-flex gap-3 mt-2">
+            <a href="https://www.instagram.com" target="_blank" class="text-light fs-5"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" class="text-light fs-5"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-light fs-5"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com" target="_blank" class="text-light fs-5"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna central: enlaces internos -->
+      <div class="col-md-5 mb-4">
+        <div class="row">
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+              <li><a href="experiences.html" class="text-light text-decoration-none">Experiences</a></li>
+              <li><a href="blog.html" class="text-light text-decoration-none">Blog</a></li>
+              <li><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li><a href="blog-post.html" class="text-light text-decoration-none">Featured Article</a></li>
+              <li><a href="construction.html" class="text-light text-decoration-none">Privacy Policy</a></li>
+              <li><a href="construction.html" class="text-light text-decoration-none">Terms of Service</a></li>
+              <li><a href="construction.html" class="text-light text-decoration-none">Cookie Settings</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna derecha (opcional vacía o futura expansión) -->
+      <div class="col-md-3 mb-4"></div>
+    </div>
+    <hr class="border-light mt-4">
+    <p class="text-center text-light fst-italic mb-2">“Travel isn't just about places — it's about stories that stay with you.”</p>
+    <p class="text-center text-light mb-0">&copy; 2025 TrailVista. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

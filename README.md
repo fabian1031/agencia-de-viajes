@@ -101,7 +101,7 @@ README.md
 **Horacio Mendoza**  
 Frontend Developer | UX/UI Designer
 
-[![GitHub](https://img.shields.io/badge/GitHub-Kolombito-black?logo=github)](https://github.com/fabian1031)
+[![GitHub](https://github.com/fabian1031/agencia-de-viajes.git)](https://github.com/fabian1031)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Horacio%20Mendoza-blue?logo=linkedin)](https://www.linkedin.com/in/horacio-mendoza-688300357/)
 [![Website](https://img.shields.io/badge/Website-horaciomendoza.com-orange?logo=google-chrome)](https://www.horaciomendoza.com)
 

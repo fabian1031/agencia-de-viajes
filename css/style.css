@@ -1,0 +1,186 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+:root {
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Playfair Display', serif;
+
+  --color-text: #333;
+  --color-bg: #f9f9f9;
+
+  --color-primary: #C8A96A;   /* Dorado */
+  --color-accent: #2C3E50;    /* Azul profundo */
+  --color-light: #ffffff;
+  --color-dark: #111111;
+ }
+
+/* Aplicación de fuentes y colores  */
+body {
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+h1, h2, h3, .display-4 {
+  font-family: var(--font-heading);
+}
+
+.text-gold {
+  color: var(--color-primary);
+}
+
+
+/* NAVBAR LOGO (negro) */
+.logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.navbar-brand {
+  padding: 0;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+/* FOOTER LOGO (blanco) */
+.footer-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+  margin-left: -10px; 
+}
+/* Animación de entrada del texto del hero */
+.hero-fade {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1.5s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Efecto hover en tarjetas */
+.hover-card {
+  transition: all 0.3s ease-in-out;
+}
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* iconos */
+.icon-style {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+/* Top Experiences */
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Carrusel Bootstrap */
+#inspirationCarousel .carousel-item img {
+  height: 550px;
+  object-fit: cover;
+}
+
+
+/* Responsive: móvil */
+@media (max-width: 576px) {
+  #inspirationCarousel .carousel-item img {
+    height: 280px;
+  }
+
+  .hero-section .container {
+    min-height: 50vh !important;
+  }
+
+  /* Puedes ajustar si quieres un tamaño más pequeño en móvil */
+  .footer-logo {
+    height: 28px;
+  }
+}
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #b68e4f; /* más oscuro para hover */
+}
+.btn-gold {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  min-width: 120px; /* esto lo hice para que lindo botón no se mueva */
+  text-align: center;
+}
+
+
+.btn-gold:hover {
+  background-color: #b68e4f;
+  color: var(--color-light);
+}
+
+/* about */
+.team-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* ==== Imágenes unificadas en secciones de Experiences ==== */
+/* Se aplica altura fija y object-fit para mantener consistencia visual */
+/* La altura se adapta según el dispositivo con media queries */
+
+.experience-img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Tablet (≤768px) */
+@media (max-width: 768px) {
+  .experience-img {
+    height: 220px;
+  }
+}
+
+/* Móvil (≤576px) */
+@media (max-width: 576px) {
+  .experience-img {
+    height: 180px;
+  }
+}
+
+/* El usuario no cambie el tamaño del texarea */
+textarea {
+  resize: none;
+}

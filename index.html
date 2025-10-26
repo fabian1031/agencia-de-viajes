@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrailVista</title>
+  <!-- Inclusión del CDN de Bootstrap para estilos rápidos y responsive -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Enlace al archivo de estilos personalizado del proyecto -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Google Fonts: Inter + Playfair Display -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <!-- Favicon universal -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Navegadores modernos -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-light" data-bs-theme="light">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a class="navbar-brand" href="index.html">
+      <img src="./assets/logo-dark.png" alt="TrailVista Logo" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="experiences.html">Experiences</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item">
+          <a class="btn btn-gold ms-3" href="contact.html">Plan Your Journey</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Sección de héroe con video de fondo a pantalla completa -->
+  <section class="hero-section position-relative">
+    <video autoplay muted loop class="w-100 position-absolute top-0 start-0 h-100 object-fit-cover" style="z-index:-1;">
+      <source src="./assets/hero-bg.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <div class="container text-white py-5" style="min-height: 80vh; display: flex; align-items: center;">
+      <div class="hero-fade">
+        <h1 class="display-4 fw-bold">Travel to <br>
+          experiences for a <br>
+          lifetime
+        </h1>
+        <p class="lead">Unforgettable journeys for modern explorers</p>
+        <div class="mt-4">
+          <a href="contact.html" class="btn btn-gold me-2">Plan Your Journey</a>
+          <a href="experiences.html" class="btn btn-outline-light">Learn More</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </section>
+<!-- Why TrailVista Section -->
+<section class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="mb-4">Why choose TrailVista?</h2>
+    <div class="row">
+
+      <!-- Card 1 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="p-4 rounded shadow-sm text-center h-100 hover-card">
+          <i class="bi bi-gem icon-style text-gold"></i>
+          <h5 class="mt-3">Tailored luxury experiences</h5>
+          <p>Custom adventures designed for your unique lifestyle and desires.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="p-4 rounded shadow-sm text-center h-100 hover-card">
+          <i class="bi bi-globe2 icon-style text-gold"></i>
+          <h5 class="mt-3">Destinations beyond the ordinary</h5>
+          <p>We take you where others don’t — uncover hidden gems worldwide.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="p-4 rounded shadow-sm text-center h-100 hover-card">
+          <i class="bi bi-star icon-style text-gold"></i>
+          <h5 class="mt-3">Handpicked stays & activities</h5>
+          <p>Every element is chosen with care to maximize quality and impact.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="p-4 rounded shadow-sm text-center h-100 hover-card">
+          <i class="bi bi-person-lines-fill icon-style text-gold"></i>
+          <h5 class="mt-3">Expert travel curators</h5>
+          <p>Our team ensures a seamless, unforgettable experience — every time.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Top Experiences Section -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-5">Our Featured Journeys</h2>
+    <div class="row">
+
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./assets/home/experiences/african-safari.jpg" class="card-img-top" alt="African Safari">
+          <div class="card-body">
+            <h5 class="card-title">African Safari Retreat</h5>
+            <p class="card-text">Step into the wild with a luxurious touch. This exclusive safari takes you deep into Africa’s breathtaking savannahs, with private game drives, elegant eco-lodges, and gourmet dinners beneath a canopy of stars.</p>
+            <p class="text-muted fst-italic">A luxury wildlife escape</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./assets/home/experiences/alpine-wellness.jpg" class="card-img-top" alt="Alpine Wellness Escape">
+          <div class="card-body">
+            <h5 class="card-title">Alpine Wellness Escape</h5>
+            <p class="card-text">Experience serenity in the heart of the snow-capped Alps. Indulge in thermal spa sessions, cozy nights in private chalets, and revitalizing nature walks.</p>
+            <p class="text-muted fst-italic">Find your mountain sanctuary</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./assets/home/experiences/bali-culture.jpg" class="card-img-top" alt="Cultural Wonders of Bali">
+          <div class="card-body">
+            <h5 class="card-title">Cultural Wonders of Bali</h5>
+            <p class="card-text">Immerse yourself in the spiritual and artistic soul of Bali. Discover sacred temples, witness traditional dances, and engage with local artisans in intimate settings.</p>
+            <p class="text-muted fst-italic">A journey into timeless tradition</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./assets/home/experiences/patagonia.jpg" class="card-img-top" alt="Patagonian Glacier Adventure">
+          <div class="card-body">
+            <h5 class="card-title">Patagonian Glacier Adventure</h5>
+            <p class="card-text">Trek across ancient icefields and sail through majestic fjords in Patagonia. This once-in-a-lifetime expedition offers breathtaking views, expert guides, and exclusive access to one of Earth’s last wild frontiers.</p>
+            <p class="text-muted fst-italic">A journey to the edge of the world</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./assets/home/experiences/japan-zen.jpg" class="card-img-top" alt="Japanese Zen Escape">
+          <div class="card-body">
+            <h5 class="card-title">Japanese Zen Escape</h5>
+            <p class="card-text">Disconnect from the noise and reconnect with yourself in Japan’s sacred mountains. Enjoy minimalist ryokans, meditative gardens, tea ceremonies, and the serenity of hot spring baths.</p>
+            <p class="text-muted fst-italic">Peace in every detail</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./assets/home/experiences/moroccan-desert.jpg" class="card-img-top" alt="Moroccan Desert Nights">
+          <div class="card-body">
+            <h5 class="card-title">Moroccan Desert Nights</h5>
+            <p class="card-text">From Marrakech to the Sahara, ride through golden dunes on camelback and sleep under the stars in luxury desert camps. Savor local cuisine, music, and the magic of Berber hospitality.</p>
+            <p class="text-muted fst-italic">Where the sand meets the stars</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- inspiration -->
+<section class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="mb-4">Visual Inspiration</h2>
+
+    <div id="inspirationCarousel" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 1000px;">
+      
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#inspirationCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#inspirationCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#inspirationCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#inspirationCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#inspirationCarousel" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#inspirationCarousel" data-bs-slide-to="5"></button>
+        <button type="button" data-bs-target="#inspirationCarousel" data-bs-slide-to="6"></button>
+        <button type="button" data-bs-target="#inspirationCarousel" data-bs-slide-to="7"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner rounded shadow">
+
+        <div class="carousel-item active position-relative">
+          <img src="./assets/home/inspiration/sunset-beach-toast.jpeg" class="d-block w-100" alt="Sunset Beach Toast">
+          <div class="overlay-title">Sunset Beach Toast</div>
+        </div>
+      
+        <div class="carousel-item position-relative">
+          <img src="./assets/home/inspiration/sahara-campfire-night.jpg" class="d-block w-100" alt="Under the Sahara Stars">
+          <div class="overlay-title">Under the Sahara Stars</div>
+        </div>
+      
+        <div class="carousel-item position-relative">
+          <img src="./assets/home/inspiration/luxury-train-journey.jpg" class="d-block w-100" alt="The Art of Travel">
+          <div class="overlay-title">The Art of Travel</div>
+        </div>
+      
+        <div class="carousel-item position-relative">
+          <img src="./assets/home/inspiration/zen-retreat-japan.jpg" class="d-block w-100" alt="Moments in Silence">
+          <div class="overlay-title">Moments in Silence</div>
+        </div>
+      
+        <div class="carousel-item position-relative">
+          <img src="./assets/home/inspiration/mountain-lake-hike.jpeg" class="d-block w-100" alt="Escape to Stillness">
+          <div class="overlay-title">Escape to Stillness</div>
+        </div>
+      
+        <div class="carousel-item position-relative">
+          <img src="./assets/home/inspiration/street-festival-joy.jpg" class="d-block w-100" alt="Culture in Motion">
+          <div class="overlay-title">Culture in Motion</div>
+        </div>
+      
+        <div class="carousel-item position-relative">
+          <img src="./assets/home/inspiration/desert-picnic-luxury.jpg" class="d-block w-100" alt="Sands of Delight">
+          <div class="overlay-title">Sands of Delight</div>
+        </div>
+      
+        <div class="carousel-item position-relative">
+          <img src="./assets/home/inspiration/spa-relaxation.jpg" class="d-block w-100" alt="Tranquility Redefined">
+          <div class="overlay-title">Tranquility Redefined</div>
+        </div>
+      
+      </div>
+      
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#inspirationCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#inspirationCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Words from Our Community</h2>
+    <div class="row justify-content-center">
+
+      <div class="col-md-4 mb-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">
+          <p class="fst-italic mb-3">“TrailVista took care of everything. I came back feeling inspired and reconnected to life.”</p>
+          <p class="fw-bold mb-0">— Luca M., Entrepreneur</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">
+          <p class="fst-italic mb-3">“Every detail felt personal. It was like the trip was made just for me.”</p>
+          <p class="fw-bold mb-0">— Amanda T., Designer</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">
+          <p class="fst-italic mb-3">“It felt like every moment was tailored just for me. I never knew travel could be this smooth and meaningful.”</p>
+          <p class="fw-bold mb-0">— Jordan S., Creative Director</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA Final sin fondo oscuro (se integra con el flujo visual) -->
+<section class="py-5 text-center">
+  <div class="container">
+    <h2 class="mb-4">Ready for your next unforgettable trip?</h2>
+    <a href="contact.html" class="btn btn-gold btn-lg">Plan Your Journey</a>
+  </div>
+</section>
+
+<!-- Footer  -->
+<footer class="bg-dark text-light pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- Columna izquierda: logo, dirección, contacto -->
+      <div class="col-md-4 mb-4">
+        <div class="d-flex flex-column align-items-start gap-3">
+          <img src="./assets/logo-light.png" alt="TrailVista Logo White" class="footer-logo">
+          <p class="mb-0"><strong>Address:</strong><br>123 Horizon Ave, Suite 5<br>Los Angeles, CA 90210</p>
+          <p class="mb-0"><strong>Contact:</strong><br>
+            <a href="mailto:contact@trailvista.travel" class="text-light text-decoration-none">contact@trailvista.travel</a><br>
+            <a href="tel:+18001238785" class="text-light text-decoration-none">+1 (800) 123‑TRVL</a>
+          </p>
+          <div class="d-flex gap-3 mt-2">
+            <a href="https://www.instagram.com" target="_blank" class="text-light fs-5"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" class="text-light fs-5"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-light fs-5"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com" target="_blank" class="text-light fs-5"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna central: enlaces internos -->
+      <div class="col-md-5 mb-4">
+        <div class="row">
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+              <li><a href="experiences.html" class="text-light text-decoration-none">Experiences</a></li>
+              <li><a href="blog.html" class="text-light text-decoration-none">Blog</a></li>
+              <li><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li><a href="blog-post.html" class="text-light text-decoration-none">Featured Article</a></li>
+              <li><a href="construction.html" class="text-light text-decoration-none">Privacy Policy</a></li>
+              <li><a href="construction.html" class="text-light text-decoration-none">Terms of Service</a></li>
+              <li><a href="construction.html" class="text-light text-decoration-none">Cookie Settings</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna derecha (opcional vacía o futura expansión) -->
+      <div class="col-md-3 mb-4"></div>
+    </div>
+    <hr class="border-light mt-4">
+    <p class="text-center text-light fst-italic mb-2">“Travel isn't just about places — it's about stories that stay with you.”</p>
+    <p class="text-center text-light mb-0">&copy; 2025 TrailVista. All rights reserved.</p>
+  </div>
+</footer>
+
+  <!-- Inclusión del bundle JS de Bootstrap para funcionalidad de componentes -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
