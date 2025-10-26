@@ -105,7 +105,7 @@ README.md
 **Fabian Beltran**  
 Frontend Developer | UX/UI Designer
 
-[![GitHub](https://github.com/fabian1031/agencia-de-viajes.git)](https://github.com/fabian1031)
+[![GitHub](https://avatars.githubusercontent.com/u/203174381?s=400&u=8c1ac36c1b64eb645e3afe1f95f4fd09f07ca68c&v=4)](https://github.com/fabian1031)
 
 
 ---
