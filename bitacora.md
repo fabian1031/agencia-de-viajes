@@ -1,4 +1,4 @@
-## Bitacora proceso de foftware personal
+## Bitacora proceso de softtware personal
 
 **Fecha: 26 de octubre de 2025**
 
@@ -73,7 +73,7 @@ Trabajé en la consolidación de la identidad visual de TrailVista, alineada con
 
 ---
 
-**Fecha: 30 de mayo de 2025**
+**Fecha: 30 de octubre de 2025**
 
 Desarrollé los wireframes en baja fidelidad para todas las páginas del sitio, priorizando navegación fluida y jerarquía visual clara.
 

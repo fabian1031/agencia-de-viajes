@@ -1,79 +1,83 @@
-# TrailVista – Travel to experiences for a lifetime
+# TrailVista – Viaja hacia experiencias para toda la vida
 
-TrailVista is a luxury travel agency dedicated to curating unforgettable, personalized journeys for modern explorers. Our mission is to provide high-end travel experiences for discerning individuals who seek more than just vacations — they crave meaning, beauty, culture, and inspiration.
+TrailVista es una agencia de viajes de lujo dedicada a diseñar recorridos inolvidables y personalizados para exploradores modernos. Nuestra misión es ofrecer experiencias de viaje exclusivas para personas exigentes que buscan más que simples vacaciones: anhelan significado, belleza, cultura e inspiración.
 
-From private safaris and mountain retreats to immersive cultural tours and wellness escapes, TrailVista connects travelers with handpicked destinations and authentic adventures across the globe.
-## 🔍 Visual Design Process
+Desde safaris privados y retiros en la montaña hasta recorridos culturales inmersivos y escapadas de bienestar, TrailVista conecta a los viajeros con destinos seleccionados y aventuras auténticas en todo el mundo.
 
-To guide the structure and aesthetics of TrailVista, the following design assets were developed and documented using Figma:
+## Proceso de Diseño Visual
+
+Para guiar la estructura y estética de TrailVista, se desarrollaron y documentaron los siguientes recursos de diseño utilizando Figma:
 
 ---
 
-### 🗺️ Sitemap – Page Architecture
+### Mapa del Sitio – Page Architecture
 
 <p align="center">
   <img src="./assets/figma/trailvista-sitemap.png" width="800" alt="TrailVista Sitemap">
 </p>
 
-The sitemap outlines the full structure of the TrailVista website, including six main pages: Home, About, Experiences, Blog, Blog Post, and Contact. This hierarchy ensures clarity in navigation and content distribution.
+El mapa del sitio describe la estructura completa del sitio web de TrailVista, incluyendo seis páginas principales: Inicio, Acerca de, Experiencias, Blog, Entrada del Blog y Contacto. Esta jerarquía garantiza claridad en la navegación y distribución del contenido.
 
 ---
 
-### 🎨 Moodboard – Visual Inspiration
+
+###  Moodboard
 
 <p align="center">
   <img src="./assets/figma/trailvista-moodboard.png" width="800" alt="TrailVista Moodboard">
 </p>
 
-The moodboard represents the visual identity of TrailVista: a luxurious, adventurous travel brand. It combines warm neutrals, golden tones, elegant typography, and curated imagery that speaks to premium experiences and global exploration.
+El moodboard representa la identidad visual de TrailVista: una marca de viajes lujosa y aventurera. Combina tonos neutros cálidos, matices dorados, tipografía elegante e imágenes seleccionadas que evocan experiencias premium y exploración global.
 
 ---
 
-### 📐 Wireframe – Homepage (Low Fidelity)
+##  Wireframe de Baja Fidelidad
 
 <p align="center">
   <img src="./assets/figma/homepage-wireframe.png" width="800" alt="Homepage Wireframe - Low Fidelity">
 </p>
 
-This low-fidelity wireframe defines the homepage layout: hero video, benefits section, featured experiences, gallery carousel, testimonials, and a final call to action — all arranged using Bootstrap’s grid principles.
+Este wireframe de baja fidelidad define la estructura de la página de inicio: video principal (hero), sección de beneficios, experiencias destacadas, carrusel de galería, testimonios y un llamado final a la acción — todo organizado utilizando los principios de la cuadrícula de Bootstrap.
 
 
 
-##  Features
+##  Características
 
-- Responsive design with Bootstrap 5.3.2
-- Hero section with full-screen video background
-- Curated "Top Experiences" section with optimized images
-- Visual Inspiration carousel (8 premium travel moments)
-- Testimonials from clients
-- Final call to action with direct navigation
-- Fully modular CSS for maintainability
-- Favicon integration in multiple formats
+- Diseño responsivo con Bootstrap 5.3.2  
+- Sección principal (hero) con video de fondo a pantalla completa  
+- Sección curada de "Experiencias Destacadas" con imágenes optimizadas  
+- Carrusel de Inspiración Visual (8 momentos de viaje premium)  
+- Testimonios de clientes  
+- Llamado final a la acción con navegación directa  
+- CSS completamente modular para facilitar el mantenimiento  
+- Integración de favicon en múltiples formatos
 
-##  Pages
+##  Paginas
 
-- `index.html` – Home page
-- `about.html` – Company story, mission, team
-- `experiences.html` – Travel categories (adventure, relax, culture)
-- `blog.html` – Travel blog articles overview
-- `blog-post.html` – Individual featured article
-- `contact.html` – Contact form with JavaScript validation
 
-##  Tools Used
+- `index.html` – Página de inicio  
+- `about.html` – Historia de la empresa, misión, equipo  
+- `experiences.html` – Categorías de viaje (aventura, relax, cultura)  
+- `blog.html` – Vista general de artículos del blog de viajes  
+- `blog-post.html` – Artículo destacado individual  
+- `contact.html` – Formulario de contacto con validación en JavaScript
 
-- **Visual Studio Code** – Main code editor
-- **Git + GitHub** – Version control and deployment
-- **Figma** – Moodboard, wireframes, and visual planning
-- **Coolors** – Color palette generation
-- **Google Fonts** – Typography pairing (serif + sans serif)
-- **Bootstrap 5.3.2** – Responsive layout and components
-- **JavaScript (strict mode)** – Client-side form validation
-- **Squoosh.app** – Image optimization: https://squoosh.app/
-- **favicon.io** – Multi-format favicon generation: https://favicon.io/
-- **Movavi Video Suite** – Editing and merging hero background video
-- **Free media banks** – Videos and images from platforms like Freepik, Pixabay, and Unsplash
 
-##  Project Structure
+##  Herramientas Utilizadas
+
+- **Visual Studio Code** – Editor principal de código  
+- **Git + GitHub** – Control de versiones y despliegue  
+- **Figma** – Moodboard, wireframes y planificación visual  
+- **Coolors** – Generación de paletas de colores  
+- **Google Fonts** – Combinación tipográfica (serif + sans serif)  
+- **Bootstrap 5.3.2** – Diseño responsivo y componentes  
+- **JavaScript (modo estricto)** – Validación de formularios en el cliente  
+- **Squoosh.app** – Optimización de imágenes: https://squoosh.app/  
+- **favicon.io** – Generación de favicons en múltiples formatos: https://favicon.io/  
+- **Movavi Video Suite** – Edición y combinación del video de fondo principal  
+- **Bancos de medios gratuitos** – Videos e imágenes de plataformas como Freepik, Pixabay y Unsplash
+
+##  estructura del proyecto
 
 ```
 /assets/
@@ -96,19 +100,14 @@ README.md
 ```
 
 
-##  Author
+##  Autor
 
-**Horacio Mendoza**  
+**Fabian Beltran**  
 Frontend Developer | UX/UI Designer
 
 [![GitHub](https://github.com/fabian1031/agencia-de-viajes.git)](https://github.com/fabian1031)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Horacio%20Mendoza-blue?logo=linkedin)](https://www.linkedin.com/in/horacio-mendoza-688300357/)
-[![Website](https://img.shields.io/badge/Website-horaciomendoza.com-orange?logo=google-chrome)](https://www.horaciomendoza.com)
+
 
 ---
 
-##  Documentation & Project Log
-
-- [Project Planning & Checklist (Notion)](https://www.notion.so/Bit-1-1e97c05e798680c5b328eaa8b23c6a9a?pvs=4)
--  Bitácora completa disponible en el archivo `bitacora.md`
 [Bitácora de desarrollo – Ver avances y decisiones día a día](./bitacora.md)
